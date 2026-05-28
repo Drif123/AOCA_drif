@@ -69,7 +69,7 @@ hash = "6d46bdc090d4bb9bdfb660be4ca94075dc08e09d5fed84108eba92a422a23c49"
 
 [[files]]
 file = "config/DistantHorizons.toml"
-hash = "cea1d01e9fa2a8cb713637b5de4275aa16ec127ab96620878f86ecea90404a11"
+hash = "afe723122bb263b6187e1f8ff657494f1fd311701e9ee042188a9d6ffca9a73e"
 
 [[files]]
 file = "config/LunaPixelStudios"
