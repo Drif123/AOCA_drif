@@ -68,6 +68,10 @@ file = "config/CoroUtil/General.toml"
 hash = "6d46bdc090d4bb9bdfb660be4ca94075dc08e09d5fed84108eba92a422a23c49"
 
 [[files]]
+file = "config/DistantHorizons.toml"
+hash = "cea1d01e9fa2a8cb713637b5de4275aa16ec127ab96620878f86ecea90404a11"
+
+[[files]]
 file = "config/LunaPixelStudios"
 hash = "a672c3b7c4cebcf67250197d20679885e0beb0b5b9ffad170e684fda9ee58f3c"
 
