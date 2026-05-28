@@ -1826,7 +1826,7 @@ hash = "60175c459cd55ff13ba256b6ec5c2e099ccfafc37649f9bb72f12835710f521e"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_changes.js"
-hash = "aa280be26cf78ada2f925f230afb467d870637530dafada2472d20dbde6e794d"
+hash = "c9f89095e21a6445fed1dadd2bbd1ae7b956888a02d27019436e15e5e4546e6c"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"

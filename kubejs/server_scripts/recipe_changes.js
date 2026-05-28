@@ -93,6 +93,9 @@ event.recipes.createMechanicalCrafting('computercraft:computer_normal', [
   P: 'create:precision_mechanism',
 })
 
+// Remove only the advanced computer recipe, not the upgrade
+event.remove({ id: 'computercraft:computer_advanced' })
+
 event.remove({ output: 'computercraft:pocket_computer_normal' })
 
 event.recipes.createMechanicalCrafting('computercraft:pocket_computer_normal', [
@@ -108,5 +111,7 @@ event.recipes.createMechanicalCrafting('computercraft:pocket_computer_normal', [
   N: 'create:nixie_tube',
   P: 'create:precision_mechanism',
 })
+
+event.remove({ id: 'computercraft:pocket_computer_advanced' })
 
 })
