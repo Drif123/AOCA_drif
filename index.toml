@@ -1501,7 +1501,7 @@ hash = "d032da8f9949a7b5bb7b4d94fac45e4d10a8820eeb54afbf13363ed5cb97931a"
 
 [[files]]
 file = "config/serverbrowser.conf"
-hash = "b748643468080769d8cdff78fe6590d60d56f46fcf8b7d78ec3f2a3189bdc54b"
+hash = "80668866f895f21e59696e6fa9ef28090810cfebe22460240c8777a0dc56ebb2"
 
 [[files]]
 file = "config/simple-rpc/server-entries.legacy"
