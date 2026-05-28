@@ -1141,7 +1141,7 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
 file = "config/iris.properties"
-hash = "5278c1deca6bc5ef8be9711e9587839b99893841fe1f8dbdddfb10eec6904a22"
+hash = "d54791b6d5642662cce4ae68e9cba3ce143b4e4203935ab0493d89a19c21cf93"
 
 [[files]]
 file = "config/item_obliterator.json5"
@@ -1770,6 +1770,10 @@ hash = "7d856d3f9655abc661ac67b450a0c956bbf80323786b407301fbdca02d2c5b8b"
 [[files]]
 file = "configureddefaults/options.txt"
 hash = "e7728600de72194d82280d8a9d88c713a095201ff1da8e62b2ef977c21154da2"
+
+[[files]]
+file = "configureddefaults/shaderpacks/ComplementaryReimagined_r5.8.1 + EuphoriaPatches_1.9.2.txt"
+hash = "8cfaef0fc8b7268b0eb6d5c97a647601ad3c9754030cb7b02d101110af63aa29"
 
 [[files]]
 file = "create-charcoal-bulk-haunting.pw.toml"
