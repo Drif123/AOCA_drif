@@ -2377,6 +2377,11 @@ hash = "9f633d92440c43d32008b7725a60175cccc3604cea2dd8e3493e0b11c06a3181"
 metafile = true
 
 [[files]]
+file = "mods/explorers-compass.pw.toml"
+hash = "0670ca65c7208aa8211883fae30c935f53cad38196aac46723b10e7bbc695113"
+metafile = true
+
+[[files]]
 file = "mods/extra-create-recipe.pw.toml"
 hash = "aa073e68b58566ec9741107511a393d578fc455492b26eedd3a15f54730ed988"
 metafile = true
@@ -2601,6 +2606,11 @@ hash = "2bdee19bd39b4bd411d7c858a7978ca9d2bdda41c1cf15920ea6be0014663f79"
 metafile = true
 
 [[files]]
+file = "mods/natures-compass.pw.toml"
+hash = "35acdf433fe8f8599f59975e848efdb717663c2c471d3a5dc18743799795a736"
+metafile = true
+
+[[files]]
 file = "mods/necronomicon.pw.toml"
 hash = "6acba5e53610fc3e62bd9641aeaaba056f99248a2d1d86bbf032061a1e408826"
 metafile = true
@@ -2804,8 +2814,18 @@ hash = "73bd0f39a0f6673737497e442cb467554e250576a7267cf4db5ec72ef17dfe58"
 metafile = true
 
 [[files]]
+file = "mods/tectonic.pw.toml"
+hash = "cd5c8c1f6183f5c2ca899daed14f272890566002dfcb2d9f9a59dfbfac0bc8f6"
+metafile = true
+
+[[files]]
 file = "mods/terrablender-neoforge.pw.toml"
 hash = "d77e4dc337b6090358c1ef01b0f99a8357e5279443e0e23e511de1be865c01c9"
+metafile = true
+
+[[files]]
+file = "mods/terralith.pw.toml"
+hash = "da7ee99189ad35aac094919fe33cac647d98533b23c228f10d4811f08989e2b8"
 metafile = true
 
 [[files]]
