@@ -2549,6 +2549,11 @@ hash = "f61a3526d323d232fbac74dedb5d89e07f45981db1c5a705c66dbe5da7507a68"
 metafile = true
 
 [[files]]
+file = "mods/just-zoom.pw.toml"
+hash = "f565820169e3cd71f18fd0b18eab2405bc400668813d04f3f3eb75b6c8924bcc"
+metafile = true
+
+[[files]]
 file = "mods/justenoughbreeding.pw.toml"
 hash = "480364ee4530bebdb3c4538dd30458e084a061bc3c4b42fb23a2ed3de2e16302"
 metafile = true
