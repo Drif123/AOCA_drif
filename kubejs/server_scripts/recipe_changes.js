@@ -1,4 +1,31 @@
+// Pleather is registered in startup_scripts/pleather.js — requires a full game restart
+// (or /kubejs reload_startup_scripts) before kubejs:pleather exists.
+
+const PLEATHER_ID = 'kubejs:pleather'
+
+function pleatherExists() {
+  return Item.of(PLEATHER_ID).id === PLEATHER_ID
+}
+
+ServerEvents.tags('item', event => {
+  const substitutes = ['minecraft:leather']
+  if (pleatherExists()) {
+    substitutes.push(PLEATHER_ID)
+  }
+  event.add('kubejs:leather_substitutes', substitutes)
+})
+
 ServerEvents.recipes(event => {
+  if (pleatherExists()) {
+    event.replaceInput(
+      {},
+      'minecraft:leather',
+      '#kubejs:leather_substitutes'
+    )
+
+    event.remove({ output: 'kubejs:pleather' })
+    event.recipes.create.compacting('kubejs:pleather', ['rubberworks:rubber_sheet', 'farmersdelight:canvas']).heated()
+  }
 
   // Remove the existing recipe by output item.
   // Replace 'mod:item_id' with the item this recipe produces.

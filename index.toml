@@ -1805,6 +1805,14 @@ file = "kubejs/README.txt"
 hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
 [[files]]
+file = "kubejs/assets/kubejs/models/item/pleather.json"
+hash = "eb581aee360cabd63e6d0ee78d57bc0f346438d2abc316b9afc974c73aebde96"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/pleather.png"
+hash = "ce89671a07b6141f3f8b534a1be405607e69a39673cc700183717f2fac44a595"
+
+[[files]]
 file = "kubejs/client_scripts/main.js"
 hash = "3df46f0add819bf2602642215b5c62f0581ffdaaf97e77c80a8c4d966e05adcf"
 
@@ -1834,11 +1842,15 @@ hash = "60175c459cd55ff13ba256b6ec5c2e099ccfafc37649f9bb72f12835710f521e"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_changes.js"
-hash = "c9f89095e21a6445fed1dadd2bbd1ae7b956888a02d27019436e15e5e4546e6c"
+hash = "9db3409579ecbcb42e60197e76782642e0e510867bdebf7d6aafc4b9695965e3"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
 hash = "5c4659e7bb368960801ccfce24ac3493fa14aae88a7e17b2a9cdfe1931985ffe"
+
+[[files]]
+file = "kubejs/startup_scripts/pleather.js"
+hash = "fbd9feb06e514739d05c762aab1541ac8d0a4d3d7b5fd354a7550cf1d65fecb7"
 
 [[files]]
 file = "mods/Design-n-Decor-1.21.1-2.1.0.jar"
