@@ -1773,7 +1773,7 @@ hash = "e7728600de72194d82280d8a9d88c713a095201ff1da8e62b2ef977c21154da2"
 
 [[files]]
 file = "configureddefaults/shaderpacks/ComplementaryReimagined_r5.8.1 + EuphoriaPatches_1.9.2.txt"
-hash = "8cfaef0fc8b7268b0eb6d5c97a647601ad3c9754030cb7b02d101110af63aa29"
+hash = "ac35363bce1c98ce0acc252d51d0174c8608d1afb0da07ea4272163849a630c3"
 
 [[files]]
 file = "create-charcoal-bulk-haunting.pw.toml"
@@ -3070,6 +3070,10 @@ metafile = true
 file = "resourcepacks/tradingpostzhhktranslation.pw.toml"
 hash = "65028c11384c624c0771b7ac39257822a7cd6f3830c524fcbd5723b6f9a27a32"
 metafile = true
+
+[[files]]
+file = "shaderpacks/ComplementaryReimagined_r5.8.1 + EuphoriaPatches_1.9.2.txt"
+hash = "ac35363bce1c98ce0acc252d51d0174c8608d1afb0da07ea4272163849a630c3"
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.8.1 + EuphoriaPatches_1.9.2/ComplementaryLicense.txt"
