@@ -58,6 +58,41 @@ ServerEvents.recipes(event => {
 
   // -----------------------------------------------------------------------
 
+  event.remove({ output: 'simplemagnets:basicmagnet' })
+
+  event.shaped(
+    'simplemagnets:basicmagnet',
+    [
+      'IIL',
+      'PE ',
+      'IIR'
+    ],
+    {
+      E: 'minecraft:ender_pearl',
+      I: 'minecraft:iron_ingot',
+      L: 'minecraft:lapis_lazuli',
+      P: 'create:precision_mechanism',
+      R: 'minecraft:redstone'
+    }
+  )
+
+  event.remove({ output: 'explorerscompass:explorerscompass' })
+
+  event.shaped(
+    'explorerscompass:explorerscompass',
+    [
+      'CSC',
+      'SOS',
+      'PSP'
+    ],
+    {
+      C: 'minecraft:cobweb',
+      S: 'minecraft:cracked_stone_bricks',
+      O: 'minecraft:compass',
+      P: 'create:precision_mechanism'
+    }
+  )
+
   event.remove({ output: 'computercraft:monitor_normal' })
 
   event.shaped(
