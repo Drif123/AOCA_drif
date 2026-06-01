@@ -1965,6 +1965,11 @@ hash = "9369292bea18bb65ba56285a1da5929527b76deb11347ad062b9d82ac1a3b7e0"
 metafile = true
 
 [[files]]
+file = "mods/athena-ctm.pw.toml"
+hash = "f54cf71372645810ce22b0ba68e706139565437150e4cfd22bde4c14606099c4"
+metafile = true
+
+[[files]]
 file = "mods/backpacked.pw.toml"
 hash = "e0a479fef621fd91d0a022358046eb6af947fd5d4191b1286504f6b958605686"
 metafile = true
@@ -2036,6 +2041,11 @@ metafile = true
 [[files]]
 file = "mods/chat-heads.pw.toml"
 hash = "a87e9f44862e34f96a5d37de5162c9ad380d7386272f7946d1b5baa3b7975e45"
+metafile = true
+
+[[files]]
+file = "mods/chipped.pw.toml"
+hash = "24c6c3fe917ffbcef04e788dec3e003d0ed03433bc00f9cf4f23fe9b85636aa7"
 metafile = true
 
 [[files]]
@@ -2542,6 +2552,11 @@ hash = "43287a3c5030a05b370b45ec1ab9a4a8d5c3d43e9c740aae5218f07ffd041fd2"
 metafile = true
 
 [[files]]
+file = "mods/fusion-connected-textures.pw.toml"
+hash = "9342bd3338c6fbb80f84625e2715a6c443b54daff11826f0dfb9ebb6ab411fd2"
+metafile = true
+
+[[files]]
 file = "mods/gallery.pw.toml"
 hash = "d8c8ce34b90dde1f7d80ea4f22cec766dcf159dfca3f7d127ae02c8a3761a83d"
 metafile = true
@@ -2822,6 +2837,11 @@ metafile = true
 [[files]]
 file = "mods/quark.pw.toml"
 hash = "ed816a4574588c1d994fd152c024bc888737c2d5b5bd5a1314705e97e8462d9a"
+metafile = true
+
+[[files]]
+file = "mods/rechiseled.pw.toml"
+hash = "b4cb292255e46d058ef9c4a6bcdf562ae539489a31d0b4bea3718042d98e5c86"
 metafile = true
 
 [[files]]
