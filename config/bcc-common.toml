@@ -7,7 +7,7 @@
 	#The name of the modpack
 	modpackName = "All of Create Aeronautics"
 	#The version of the modpack
-	modpackVersion = "v1.7"
+	modpackVersion = "v1.8"
 	#Use the metadata.json to determine the modpack version
 	#ONLY ENABLE THIS IF YOU KNOW WHAT YOU ARE DOING
 	useMetadata = false

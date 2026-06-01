@@ -1,13 +1,13 @@
 name = "AOCA Drif"
 author = "Drif"
-version = "1.0.0"
+version = "1.8.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "752731f638040ba2bd75a6e8edeb32473376f614d1e99a6fca3032e80ca446aa"
+hash = "066bfdea7ba10a35843d1d08ff436df214ada2f679228c8765bdacd811a0d8bb"
 
 [versions]
 minecraft = "1.21.1"
-neoforge = "21.1.228"
+neoforge = "21.1.232"
