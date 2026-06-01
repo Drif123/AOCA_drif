@@ -1,0 +1,2 @@
+# DistantHorizons stores server state in config and theres no way to do client only so ignore it.
+config/DistantHorizons.toml
