@@ -2203,6 +2203,11 @@ hash = "8f067d4847ec4f5fd581c6323f8a069f0d273422dba347f0cfcb8b2f62a99238"
 metafile = true
 
 [[files]]
+file = "mods/create-deco.pw.toml"
+hash = "67a405e6307f900d168deaa954a4309c3b44a6025e4efd7b8e774b6f9d3a69cd"
+metafile = true
+
+[[files]]
 file = "mods/create-deep-dark.pw.toml"
 hash = "fa0490af88712bad892ab9a1ee49f5cc402654c1571773dbdb9013ab54b496b5"
 metafile = true
