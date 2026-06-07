@@ -176,4 +176,12 @@ event.recipes.createMechanicalCrafting('computercraft:pocket_computer_normal', [
 
 event.remove({ id: 'computercraft:pocket_computer_advanced' })
 
+  ;[
+    'white', 'orange', 'magenta', 'light_blue', 'yellow', 'lime',
+    'pink', 'gray', 'light_gray', 'cyan', 'purple', 'blue',
+    'brown', 'green', 'red', 'black'
+  ].forEach(color => {
+    event.remove({ output: `createdeco:${color}_shipping_container` })
+  })
+
 })

@@ -1902,7 +1902,7 @@ hash = "60175c459cd55ff13ba256b6ec5c2e099ccfafc37649f9bb72f12835710f521e"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_changes.js"
-hash = "fb1cb9807cdb4c174ea0ab9cb372d87d9b420d93bd9bce0783464b3c5c255892"
+hash = "eb00bbd6ed37b4dfe5719a50467e57ea2906faa1529b1c3f4b47a532d5eb0630"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
@@ -2738,6 +2738,11 @@ metafile = true
 [[files]]
 file = "mods/modernfix.pw.toml"
 hash = "7b4034d9410e0b1aec27f383f289f93337ab1491db0aff5f771612bfa0e9b1b4"
+metafile = true
+
+[[files]]
+file = "mods/more-red.pw.toml"
+hash = "f978224776c543bba4eda79ab3352f00b9eafd72e24167474775e2c130527313"
 metafile = true
 
 [[files]]
