@@ -1902,7 +1902,7 @@ hash = "60175c459cd55ff13ba256b6ec5c2e099ccfafc37649f9bb72f12835710f521e"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_changes.js"
-hash = "eb00bbd6ed37b4dfe5719a50467e57ea2906faa1529b1c3f4b47a532d5eb0630"
+hash = "4dcb1dda7fbc43da87eaa5f5cecb8a982c69b33fd98c6a3880ae6aa6aaebaab1"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
@@ -2091,6 +2091,11 @@ metafile = true
 [[files]]
 file = "mods/connectivity.pw.toml"
 hash = "81105a1a363873f3675a861d228abcf0f2a8356f1a17850c06f6d6c47e454634"
+metafile = true
+
+[[files]]
+file = "mods/construction-sticks.pw.toml"
+hash = "64ca3b36f97c2508f0d1846b385fcacc0d6f1cf6bc972521a5b3f282e1e8022b"
 metafile = true
 
 [[files]]

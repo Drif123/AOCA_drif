@@ -108,73 +108,73 @@ ServerEvents.recipes(event => {
     }
   )
 
-event.remove({ output: 'computercraft:monitor_advanced' })
+  event.remove({ output: 'computercraft:monitor_advanced' })
 
-event.shaped(
-  Item.of('computercraft:monitor_advanced', 4),
-  [
-    'AAA',
-    'ABA',
-    'AAA'
-  ],
-  {
-    A: 'minecraft:gold_ingot',
-    B: 'create:nixie_tube'
-  }
-)
+  event.shaped(
+    Item.of('computercraft:monitor_advanced', 4),
+    [
+      'AAA',
+      'ABA',
+      'AAA'
+    ],
+    {
+      A: 'minecraft:gold_ingot',
+      B: 'create:nixie_tube'
+    }
+  )
 
-event.remove({ output: 'advancedperipherals:peripheral_casing' })
+  event.remove({ output: 'advancedperipherals:peripheral_casing' })
 
-event.shaped(
-  'advancedperipherals:peripheral_casing',
-  [
-    'ABA',
-    'BCB',
-    'ABA'
-  ],
-  {
-    A: 'createcasing:creative_casing',
-    B: 'create:andesite_bars',
-    C: 'create:precision_mechanism',
-  }
-)
+  event.shaped(
+    'advancedperipherals:peripheral_casing',
+    [
+      'ABA',
+      'BCB',
+      'ABA'
+    ],
+    {
+      A: 'createcasing:creative_casing',
+      B: 'create:andesite_bars',
+      C: 'create:precision_mechanism',
+    }
+  )
 
-event.remove({ output: 'computercraft:computer_normal' })
+  event.remove({ output: 'computercraft:computer_normal' })
 
-event.recipes.createMechanicalCrafting('computercraft:computer_normal', [
-  'CCCCC',
-  'CAPAC',
-  'CPDPC',
-  'CAPAC',
-  'CNNNC'
-], {
-  A: 'createaddition:capacitor',
-  C: 'createcasing:creative_casing',
-  D: 'create_new_age:overcharged_diamond',
-  N: 'create:nixie_tube',
-  P: 'create:precision_mechanism',
-})
+  event.recipes.createMechanicalCrafting('computercraft:computer_normal', [
+    'CCCCC',
+    'CAPAC',
+    'CPDPC',
+    'CAPAC',
+    'CNNNC'
+  ], {
+    A: 'createaddition:capacitor',
+    C: 'createcasing:creative_casing',
+    D: 'create_new_age:overcharged_diamond',
+    N: 'create:nixie_tube',
+    P: 'create:precision_mechanism',
+  })
 
-// Remove only the advanced computer recipe, not the upgrade
-event.remove({ id: 'computercraft:computer_advanced' })
+  // Remove only the advanced computer recipe, not the upgrade
+  event.remove({ id: 'computercraft:computer_advanced' })
 
-event.remove({ output: 'computercraft:pocket_computer_normal' })
+  event.remove({ output: 'computercraft:pocket_computer_normal' })
 
-event.recipes.createMechanicalCrafting('computercraft:pocket_computer_normal', [
-  'CCCCC',
-  'CAPAC',
-  'CPEPC',
-  'CAPAC',
-  'CNNNC'
-], {
-  A: 'createaddition:capacitor',
-  C: 'createcasing:creative_casing',
-  E: 'minecraft:enchanted_golden_apple',
-  N: 'create:nixie_tube',
-  P: 'create:precision_mechanism',
-})
+  event.recipes.createMechanicalCrafting('computercraft:pocket_computer_normal', [
+    'CCCCC',
+    'CAPAC',
+    'CPEPC',
+    'CAPAC',
+    'CNNNC'
+  ], {
+    A: 'createaddition:capacitor',
+    C: 'createcasing:creative_casing',
+    E: 'minecraft:enchanted_golden_apple',
+    N: 'create:nixie_tube',
+    P: 'create:precision_mechanism',
+  })
 
-event.remove({ id: 'computercraft:pocket_computer_advanced' })
+  event.remove({ id: 'computercraft:pocket_computer_advanced' })
 
   ;[
     'white', 'orange', 'magenta', 'light_blue', 'yellow', 'lime',
@@ -183,5 +183,12 @@ event.remove({ id: 'computercraft:pocket_computer_advanced' })
   ].forEach(color => {
     event.remove({ output: `createdeco:${color}_shipping_container` })
   })
+
+  event.shapeless(
+    Item.of('quark:limestone', 1), // arg 1: output
+    [
+      'create:limestone'
+    ]
+  )
 
 })
