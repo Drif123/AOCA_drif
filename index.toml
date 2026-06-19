@@ -2437,6 +2437,11 @@ hash = "27788d3b80ad864f96044fe2f86608e1d4204ba1c55f32c6953df7d1cc050f81"
 metafile = true
 
 [[files]]
+file = "mods/deployer.pw.toml"
+hash = "34f20675ca26ae05670def8d9d84faf42009fabd1113d1739cea6fd380420aac"
+metafile = true
+
+[[files]]
 file = "mods/despawn-tweaks.pw.toml"
 hash = "c4cb0e99771912399791487f68c98ae8546642857bc8ec0c6683355df6631cf1"
 metafile = true
@@ -2509,6 +2514,11 @@ metafile = true
 [[files]]
 file = "mods/extra-create-recipe.pw.toml"
 hash = "aa073e68b58566ec9741107511a393d578fc455492b26eedd3a15f54730ed988"
+metafile = true
+
+[[files]]
+file = "mods/extra-gauges.pw.toml"
+hash = "635b8380894bc7c050deeb426f3e5947b27bda821a616b0ef6a757ae729e96b8"
 metafile = true
 
 [[files]]
