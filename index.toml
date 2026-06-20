@@ -2800,6 +2800,11 @@ file = "mods/notenoughanimations-neoforge-1.12.3-mc1.21.1.jar"
 hash = "ac48316842b478777cead0a39e7c8a51810ffa1d848d8ad8f3f56d03eedc5549"
 
 [[files]]
+file = "mods/observable.pw.toml"
+hash = "3e477c97729015ac6184c0b56cb148947b7c0dc5cca764336ee96719f05f05e6"
+metafile = true
+
+[[files]]
 file = "mods/open-parties-and-claims-pvp-support.pw.toml"
 hash = "3c95f896368bb85ea26ff7930a3c8916b76847d59f1f434c6150885b56600131"
 metafile = true
@@ -2996,6 +3001,11 @@ metafile = true
 [[files]]
 file = "mods/some-assembly-required.pw.toml"
 hash = "3ee552df830edc21983af39740f267599437cd98a4e37b071413a598716861a8"
+metafile = true
+
+[[files]]
+file = "mods/spark.pw.toml"
+hash = "593fa7b30ab016aa45be07bd6bef3a9f160ed0f24689850d60bf84995d69b843"
 metafile = true
 
 [[files]]
